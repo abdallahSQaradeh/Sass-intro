@@ -44,6 +44,11 @@ li {
   float: left;
   width: 16.6666666667%;
 }
+@media screen and (max-width: 600px) {
+  #main-nav li {
+    width: 100%;
+  }
+}
 #main-nav a {
   color: #f8f9fb;
   text-decoration: none;
