@@ -35,6 +35,11 @@ li {
   width: 100%;
   list-style-type: none;
 }
+#main-nav ul::after {
+  content: "";
+  display: block;
+  clear: both;
+}
 #main-nav li {
   float: left;
   width: 14%;
@@ -46,11 +51,8 @@ li {
   display: block;
   text-align: center;
 }
-
-#main-nav ul:after {
-  content: "";
-  display: block;
-  clear: both;
+#main-nav a:hover {
+  background-color: #333;
 }
 
 section h1 {
