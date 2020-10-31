@@ -19,7 +19,7 @@
         display:block;
         text-align: center;
         &:hover{//psudo classes 
-            background-color: #333;
+            background-color: lighten($deepblue, 6);
         }
     }
 }//end #main-nav
@@ -62,7 +62,7 @@ section h1{
         color:$deepblue;
         font-weight:bold;
         &:hover{
-            color:red;
+            color:complement($color: $deepblue);
         }
     }
     ul{
@@ -76,3 +76,5 @@ section h1{
         width:100%;
     }
 }
+
+//https://sass-lang.com/documentation/modules functions
